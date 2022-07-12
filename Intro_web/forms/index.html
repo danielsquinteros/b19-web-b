@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>
+        <!-- Input de tipo texto -->
+        <!-- required si o si tiene que venir -->
+        <input 
+            type="text"
+            name="apellido"
+            placeholder="Aquí tu nombre"
+            minlength="2"
+            maxlength="10"
+            required
+        >
+        <br>
+        <br>
+        <!-- Input de tipo password-->
+        <input 
+            type="password"
+            name="contraseña"
+            placeholder="Aquí tu contraseña"
+            minlength="2"
+            maxlength="10"
+            required
+        >
+        <br>
+        <br>
+        <!-- Input de tipo number-->
+        <input
+            type="number"
+            name="numero"
+            min="-10"
+            max="12"
+            required
+        >
+        <br>
+        <br>
+        <p>
+            Selecciona multiples animales
+        </p>
+        <!-- Input de tipo checkbox-->
+        <!-- Opción 1, que el label agrupe al input checkbox-->
+        <label>
+            Perro
+            <input 
+            type="checkbox"
+            name="animal"
+            value="Perro"
+            checked
+        
+            >
+        </label>
+        <br>
+        <br>
+        <!-- Opción 2, que el label agrupe al input checkbox-->
+        <label for="gatoConexion">
+            Gato
+        </label>
+        <input 
+            id="gatoConexion"
+            type="checkbox"
+            name="animal"
+            value="Gato"
+    
+        >
+
+        <p>Selecciona el rango de edad</p>
+        <!-- Input de tipo radio -->
+        <label>
+            0-2 años
+            <input
+                name="age"
+                type="radio"
+                value="0-2años"
+            >
+        </label>
+        <label>
+            2-3 años
+            <input
+                name="age"
+                type="radio"
+                value="2-3años"
+            >
+        </label>
+        <label>
+            3-4 años
+            <input
+                name="age"
+                type="radio"
+                value="3-4años"
+            >
+        </label>
+        <br>
+        <br>
+        <label>
+            Selecciona una hora
+            <input
+                type="time"
+                name="hora"
+            >
+        </label>
+        <br>
+        <br>
+        <label>
+            Selecciona una día
+            <input
+                type="date"
+                name="dia"
+                value="2022-07-11"
+                min="2022-02-01"
+                max="2022-12-01"
+            >
+        </label>
+        <br>
+        <br>
+        <label>
+            Selecciona un auto
+            <select name="auto">
+                <option value="Camioneta">Camioneta</option>
+                <option value="Furgon">Furgon</option>
+                <option value="Sedan">Sedan</option>
+                <option value="Troca">Troca</option>
+            </select>
+
+        </label>
+        <br>
+        <br>
+        <textarea
+            rows="10"
+            cols="40">
+
+        </textarea>
+
+        <button type="submit">
+            ENVIAR
+        </button>
+    </form>
+</body>
+</html>
