@@ -1,0 +1,30 @@
+/* a través de una etiqueta de html estoy dando estilos */
+/* p {
+    display: inline;
+} */
+
+/* el atributo de class en un div es con un . en css */
+.display-block{
+    display: block;
+    padding: 20px; /* TOP RIGHT BOTTOM LEFT */
+    background: red;
+    margin: 20px;
+    text-align: end;
+}
+
+.display-contenedor-hijo{
+    display: inline;
+}
+
+.display-hijo{
+    display: inline;
+    /* margin: 20px;
+    padding: 100px; */
+}
+
+.display-inline-block{
+    display: inline-block;
+    background: yellow;
+    margin: 20px;
+    padding: 100px;
+}
