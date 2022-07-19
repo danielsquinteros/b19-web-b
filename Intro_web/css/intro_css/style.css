@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+}
+.title{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+}
+#titulo-unico{
+    color: blue;
+}
+
+.subtitulo p {
+    color: white;
+}
+
+.especificidad-1{
+    color: red;
+}
+
+.especificidad-1 .especificidad-2{
+    color: gold;
+}
+.especificidad-1 h2{
+    color: gray;
+}
+.especificidad-1 .especificidad-3{
+    color: black;
+}
+
+/* .especificidad-1 h2{
+    color: yellow;
+}
+.especificidad-2 {
+    color: green;
+} */
