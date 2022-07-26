@@ -1,0 +1,28 @@
+
+/* Selector por etiqueta */
+h1 {
+    color: red;
+}
+
+.titulo {
+    color: aqua;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+/* Selector hijo directo */
+.padre > .hijo{
+    color: darkgoldenrod
+}
+
+/* Selector hermano */
+/* h4 ~ h5 {
+    color:deeppink;
+} */
+
+/* Selector adyacente */
+h4 + h5 + h5 {
+    color:deeppink;
+}
