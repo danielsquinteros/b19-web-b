@@ -14,7 +14,27 @@
 } */
 
 /* desde min-widht */
+@media screen and (min-width: 576px){
+    .container{
+        width: 100px;
+    }
+}
 @media screen and (min-width: 768px){
+    .container{
+        width: 100px;
+    }
+}
+@media screen and (min-width: 992px){
+    .container{
+        width: 100px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .container{
+        width: 100px;
+    }
+}
+@media screen and (min-width: 1400px){
     .container{
         width: 100px;
     }
