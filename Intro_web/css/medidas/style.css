@@ -1,0 +1,72 @@
+/* * {
+    font-size: 16px; */
+/* } */
+/* * -> estoy apuntado el DOCTYPE y a todas las clases */
+
+
+/* 1 pulgadas = 2.54 cm */
+/* px = 1/94 pulgada */
+/* pt = 1/72 pulgada */
+/* pc = 12 puntos */
+/* in = 1 pulgada */
+/* cm */
+/* mm */
+
+
+body {
+    font-size: 10px;
+}
+
+.medida-absoluta{
+    font-size: 20px;
+}
+
+.box{
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+}
+
+ /* Explicación rem */
+.medida-relativa{
+    /* rem busca el valor más lejano de font-size  = 10px */
+    /* 2 * 10 = 20 */
+    font-size: 2rem;
+}
+.medida-16{
+    /* rem busca el valor más lejano de font-size  = 10px */
+    /* 2 * 10 = 20 */
+    font-size: 16px;
+}
+
+
+/* Explicacion em */
+/* em busca el valor más cercano de font-size */
+.padre {
+    font-size: 30px;
+}
+
+.hijo {
+    font-size: 2em;
+}
+
+.parrafo {
+    font-size: 1em;
+}
+
+.padre-porcentaje{
+    background-color: beige;
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+}
+.hijo-porcentaje {
+    background-color: aqua;
+    width: 50%;
+    height: 100px;
+}
+.nieto-porcentaje {
+    background-color: red;
+    width: 50%;
+    height: 80px;
+}
